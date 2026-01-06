@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information</title>
+</head>
+<body>
+    <form >
+        <center><h3><u>Personal Information</u></h3></center>
+        
+        <fieldset>
+            <legend> Important Points</legend>
+        
+        <ul type="square" >
+            <li>Fill in all required fields</li>
+            <li>Please ensure that you provide all neccessary details</li>
+            <li>Please click Submit after completion of filling the form</li>
+        </ul>
+        </fieldset>
+        
+
+        <p>  
+            <label><b>Enter your FirstName:</b></label>
+            <input type="text" placeholder="enter your FirstName" required>
+
+            <label><b>Enter your MiddleName:</b></label>
+            <input type="text" placeholder="enter your MiddleName">
+
+             <label><b>Enter LastName:</b></label>
+            <input type="text" placeholder="enter your LastName" required>
+        </p>
+        
+         <p>  
+           <label><b>Enter your mobile number:</b></label>
+           <input type="tel" placeholder="Enter your number" minlength="10" maxlength="10" required>
+        </p>
+        <p>
+            <label><b>Enter your Gender:</b></label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </p>
+        <p>
+            <label><b>Enter full Address:</b></label>
+            <input type="text" placeholder="address" required>
+            <input type="text" placeholder="Street" required>
+            <input type="text" placeholder="City" required>
+            <input type="text" placeholder="zipcode" required>
+        </p>
+        <p>
+            <label><b>Enter your date of birth:</b></label>
+            <input type="date" required>
+
+            <label><b>Blood Group:</b></label>
+            <input type="text" placeholder="Enter your group">
+        </p>
+        <p>
+            <label><b>Enter your email:</b></label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label><b>Enter your Password:</b></label>
+            <input type="password" placeholder="Enter your Password" required>
+             <label><b>Enter your current Password:</b></label>
+            <input type="password" placeholder="Enter your Password" required>
+        </p>
+        <p>
+            <label><b>Enter your college Name:</b></label>
+            <input type="text"  placeholder="College name" required>
+            <label><b>Enter your University:</b></label>
+            <select>
+                <option disabled selected>Enter your University</option>
+                <option>JNTUK</option>
+                <option>JNTUA</option>
+                <option>Andhra University</option>
+                <option>KLU University</option>
+                <option>SRM University</option>
+                <option>VIT University</option>
+
+            </select>
+
+            <label><b>Select your branch:</b></label>
+            <select>
+                <option disabled selected>Select Choice</option>
+                <option>1.Computer Science and Engineering</option>
+                <option>2.IT</option>
+                <option>3.ECE</option>
+                <option>4.EEE</option>
+                <option>5.Civil</option>
+                <option>6.AI-ML</option>
+                <option>7.Data Science</option>
+                <option>8.Mechanics</option>
+            </select>
+
+            <label><b>Passout Year:</b></label>
+            <select>
+                <option disabled selected>Passout Year</option>
+                <option>2022</option>
+                <option>2023</option>
+                <option>2024</option>
+                <option>2025</option>
+                <option>2026</option>
+                <option>2027</option>
+            </select>
+        </p>
+        <p>
+            <label><b><i>C.G.P.A:</i></b></label>
+            <input type="number" placeholder=" CGPA"  min="0" max="10" step="0.1" required>
+        </p>
+      
+            <p>
+               <label><b><i>Select your Skills:</i></b></label>
+                <br>
+                <ol type="A">
+                <li><input type="checkbox" id="java">
+                <label for="java">Java</label></li>
+                <li><input type="checkbox" id="python">
+                <label for="python">Python</label></li>
+                <li><input type="checkbox" id="dbms">
+                <label for="dbms">DBMS</label></li>
+                <li><input type="checkbox" id="cn">
+                <label for="cn">Computer Networks</label></li>
+                <li><input type="checkbox" id="os">
+                <label for=os>Operating Systems</label></li>
+                <li><input type="checkbox" id="html">
+                <label for="html">HTML</label></li>
+                <li><input type="checkbox" id="css">
+                <label for="css">CSS</label></li>
+                <li><input type="checkbox" id="js">
+                <label for="js">JavaScript</label></li>
+
+                </ol>
+            </p>
+            <p>
+                <label><b><i>Upload Resume:</i></b></label>
+                <input type="file">
+            </p>
+            <p>
+                <label><b><i>Upload Certificates (Optional):</i></b></label>
+                <input type="file">
+
+            </p>
+            <p>
+                <label for="lang"><b><i>Languages Known:</i></b></label>
+
+                <input type="checkbox" id="eng">
+                <label for="eng">English</label>
+                <input type="checkbox" id="hin">
+                <label for="hin">Hindi</label>
+                <input type="checkbox" id="tel">
+                <label for="tel">Telugu</label>
+                <input type="checkbox" id="tam">
+                <label for="tam">Tamil</label>
+                <input type="checkbox" id="kan">
+                <label for="kan">Kanada</label>
+                <input type="checkbox" id="mal">
+                <label for="mal">Malayalam</label>
+                
+            </p>
+            <p>
+            <label><b>How do you know About us:</b></label>
+            <select>
+                <option disabled selected>select one</option>
+                <option>1.Through College</option>
+                <option>2.Through Online</option>
+                <option>3.Through Outsiders</option>
+                <option>4.Others</option>
+                
+            </select>
+
+            </p>
+            <pre>
+
+            </pre>
+            <p>
+                <input type="checkbox" id="consent" required>
+                <label for="consent"><b>I understand and acknowledge the above information and I agree to the Terms and Conditions and Privacy Policy.</b></label>
+            </p>
+            <p>
+                <marquee><mark>If any problem you face ,Please reach out to us</mark></marquee>
+            </p>
+
+            
+            <p>
+                <center>
+                    <input type="reset">
+                    <button>Submit</button>
+                </center>
+            </p>
+
+
+
+
+    </form>
+</body>
+</html>
