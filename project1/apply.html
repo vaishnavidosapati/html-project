@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+</head>
+<body style="background-color:blanchedalmond">
+    <form action="successful.html" target="_self">
+        <center><h3>Admission Details</h3></center>
+
+        <p>  
+            <label><b>Enter your FirstName:</b></label>
+            <input type="text" placeholder="enter your FirstName" required>
+
+             <label><b>Enter LastName:</b></label>
+            <input type="text" placeholder="enter your LastName" required>
+        </p>
+        
+         <p>  
+           <label><b>Enter your mobile number:</b></label>
+           <input type="tel" placeholder="Mobile number" minlength="10" maxlength="10" required>
+        </p>
+        <p>
+            <label><b>Enter your Gender:</b></label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </p>
+        <p>
+            <label><b>Enter full Address:</b></label>
+            <input type="text" placeholder="address" required>
+            <input type="text" placeholder="Street" required>
+            <input type="text" placeholder="City" required>
+            <input type="text" placeholder="pincode" required>
+        </p>
+        <p>
+            <label><b>Enter your date of birth:</b></label>
+            <input type="date" required>
+        </p>
+        <p>
+            <label><b>Enter your email:</b></label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label><b>Enter your Password:</b></label>
+            <input type="password" placeholder="Enter your Password" required>
+        </p>
+        <p>
+             <label><b>Select Course:</b></label>
+            <select>
+                <option disabled selected>Select Choice</option>
+                <option>1.B.Tech</option>
+                <option>2.BBA</option>
+                <option>3.BCA</option>
+                <option>4.MBA</option>
+                <option>5.BioTech</option>
+            </select>
+        </p>
+        <p>
+            <label><b>Enter your Inter College Name:</b></label>
+            <input type="text" placeholder="College name" required>
+
+            <label><b>Inter Passout Year:</b></label>
+            <select>
+                <option disabled selected>Passout Year</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+                <option>2024</option>
+            </select>
+
+            <label><b><i>Inter Marks</i></b></label>
+            <input type="number" placeholder="Marks" required>
+        </p>
+      
+            <p>
+               <label><b><i>Select your Subjects:</i></b></label>
+                <br>
+                <ol type="A">
+                <li><input type="checkbox" id="java">
+                <label for="Mathematics">Mathematics</label></li>
+                <li><input type="checkbox" id="python">
+                <label for="Physics">Physics</label></li>
+                <li><input type="checkbox" id="dbms">
+                <label for="Chemistry">Chemistry</label></li>
+                <li><input type="checkbox" id="html">
+                <label for="Biology">Biology</label></li>
+                <li><input type="checkbox" id="cn">
+                <label for="Sanskrit">Sanskrit</label></li>
+                <li><input type="checkbox" id="os">
+                <label for=English>English</label></li>
+
+                </ol>
+            </p>
+            <p>
+                <label><b><i>Upload 10th Marklist:</i></b></label>
+                <input type="file">
+            </p>
+            <p>
+                <label><b><i>Upload Inter Long Memo:</i></b></label>
+                <input type="file">
+
+            </p>
+            <p>
+                <label for="lang"><b><i>Languages Known:</i></b></label>
+
+                <input type="radio" id="eng">
+                <label for="eng">English</label>
+                <input type="radio" id="hin">
+                <label for="hin">Hindi</label>
+                <input type="radio" id="tel">
+                <label for="tel">Telugu</label>
+                
+            </p>
+            <p>
+            <label><b>How do you know About us:</b></label>
+            <select>
+                <option disabled selected>select one</option>
+                <option>1.Through College</option>
+                <option>2.Through Online Platforms</option>
+                <option>3.Through External References</option>
+                <option>4.Others</option>
+                
+            </select>
+            <br>
+            </p>
+            <p>
+                <input type="radio" id="approve" required>
+                <label for="approve"><b>I agree to the Terms and Conditions and Privacy Policy</b></label>
+            </p>
+ 
+            <p>
+                <center>
+                    <input type="reset">
+                    <button>Submit</button>
+                </center>
+            </p>
+
+    </form>
+</body>
+</html>
